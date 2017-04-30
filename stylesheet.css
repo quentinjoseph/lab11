@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+/*font-family: 'Quattrocento Sans', sans-serif;*/
+body{background-image: url("images/clean.jpg");}
+
+#mover{font-family: 'Quattrocento Sans';
+/*text-align: center;*/
+/*border-bottom: solid 1px orange;*/
+width:20%;
+margin: auto;
+margin-bottom: 40px;}
+
+/*#moverKids{font-family: 'Quattrocento Sans';
+border-bottom: solid 1px orange;
+width:20%;
+margin: auto;
+margin-bottom: 40px;}*/
+#mover h1{
+text-align: center;
+color: white;
+}
+#moverKids h1{
+text-align: center;
+color: white;
+}
+.nav{width: 100%;}
+
+.nav ul{text-align: center;}
+
+.nav li{display:inline;color: white;padding: 5%;}
+
+.holder{
+width:50%;
+margin: auto;}
+
+.row{height: 75px;}
+
+.stories{
+  font-family: 'Quattrocento Sans';
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid orange;
+}
+
+a p{color:white;}
+a p:visited{color: white;}
+.thumbsDiv{
+  height: 75px;
+}
+.stories p{display: inline-block;float: left;}
+/*.stories img{display: inline-block;}*/
+/*.dividers{
+margin: auto;
+border-bottom: solid 1px black;
+width:60%;
+height:1px;
+}*/
+
+.showPics{
+visibility: visible;
+border-radius: 20px;
+border: solid 1px black;
+width: 60px;
+height: 40px;}
+
+.pics{
+border-radius: 10px;
+width: 90%;
+height: 90%}
+
+/*p{text-align:center;}*/
+
+.qpng{margin-left: -20px;width: 20px;
+  position:relative;float: left;}
+.saved{border: 1px solid orange;
+border-radius: 10px;padding: 2px;}
+.savPic{
+  /*display: none;*/
+  width: 35%;
+}
+#subFind{border-radius: 20px;}
+#savMenu{width: 100px;
+height: 100px;
+background-color: white;}
