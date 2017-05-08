@@ -1,0 +1,9 @@
+<div class="container all">
+<div ng-repeat="post in redditPostsFinal" class="row eachPost">
+<div class="col-xs-2 blank"></div>
+<div class="col-xs-2 picDiv"><a href="{{post.url}}" target="_blank"><img src="{{post.thumb}}"></a></div>
+<div class="col-xs-6 titlesDiv"><p><a href="https://reddit.com{{post.urlComments}}" target="_blank">{{post.title}}</a></p><p class="ups">upvotes: {{post.ups}}</p></div>
+<div class="col-xs-2 blank"><img class="qpng" ng-click="toggle = !toggle" ng-class="{'saved' : toggle}" src="images/q.png" alt=""></div>
+</div>
+
+</div>

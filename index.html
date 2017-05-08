@@ -2,35 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-
-  <link rel="stylesheet" type="text/css" href="fancybox/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link  href="fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Q's SubViewer</title>
 
 </head>
-<body>
-<div id="mover" ng-app><h1>r/{{name}}</h1><br><input id="subFind" ng-model="name" type="text" placeholder="subreddit"><button id="subButton" type="button" name="button">go</button></div>
-  <!-- <div class="nav">
-    <ul>
-        <li><a href="falling.html">KidsFallingDown</a></li>
-        <li>aww</li>
-    </ul>
-  </div> -->
-<!-- <div id="savMenu"></div> -->
-<div class="storeMenu">
-<ul class='storedList'>
+<body ng-app="redMod" ng-controller="controller1">
+  <div id="mover"><h1>r/{{name}}</h1>
+    <form>
+    <input id="subFind" ng-model="name" type="text" placeholder="subreddit"><button ng-click="getReddit(name)" id="subButton" type="submit" name="button">go</button>
+  </form>
+  </div>
 
-</ul>
-</div>
-    <div class="container"></div>
+  <div class="storeMenu">
+  <ul class='storedList'>
+
+  </ul>
+  </div>
+<content></content>
 
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<script  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-<script src="fancybox/dist/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="script.js"></script>
+<script src="lib/angular.min.js"></script>
+<script type="text/javascript" src="lib/angular-route.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/controller1.js"></script>
+<script type="text/javascript" src="js/services.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/directives.js"></script>
+<script src="fancybox/dist/jquery.fancybox.min.js"></script>
+</body>
 </html>

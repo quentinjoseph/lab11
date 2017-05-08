@@ -1,23 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
 /*font-family: 'Quattrocento Sans', sans-serif;*/
-body{background-image: url("images/clean.jpg");}
+body{background-image: url("../images/clean.jpg");
+}
 
+img{
+  float: right;
+  width: 60%;
+  height: 60%;
+}
+.eachPost{
+  width:100%;
+  height: 100px;
+
+}
+.titlesDiv{color:white;
+width: 350px;
+border-bottom: orange 1px solid;
+height: 100px;}
 #mover{font-family: 'Quattrocento Sans';
-/*text-align: center;*/
-/*border-bottom: solid 1px orange;*/
 width:20%;
 margin: auto;
 margin-bottom: 40px;}
+form{text-align: center;}
+.blank{
+  width:20%;
+}
 
-/*#moverKids{font-family: 'Quattrocento Sans';
-border-bottom: solid 1px orange;
-width:20%;
-margin: auto;
-margin-bottom: 40px;}*/
+.ups{
+  font-size: 9px;
+  text-align: right;
+  vertical-align: bottom;}
+
 #mover h1{
 text-align: center;
 color: white;
 }
+.qpng{width: 12%;
+height: 12%;
+float: left;
+margin-top: 25%;}
+.saved{border: 1px solid orange;
+border-radius: 20px;padding: 2px;}
+#subFind{border-radius: 20px;}
+#subButton{border-radius: 10px;}
+/*
 #moverKids h1{
 text-align: center;
 color: white;
@@ -46,7 +72,7 @@ a p:visited{color: white;}
 .thumbsDiv{
   height: 75px;
 }
-.stories p{display: inline-block;float: left;}
+.stories p{display: inline-block;float: left;}*/
 /*.stories img{display: inline-block;}*/
 /*.dividers{
 margin: auto;
@@ -55,7 +81,7 @@ width:60%;
 height:1px;
 }*/
 
-.showPics{
+/*.showPics{
 visibility: visible;
 border-radius: 20px;
 border: solid 1px black;
@@ -65,19 +91,20 @@ height: 40px;}
 .pics{
 border-radius: 10px;
 width: 90%;
-height: 90%}
+height: 90%}*/
 
 /*p{text-align:center;}*/
 
-.qpng{margin-left: -20px;width: 20px;
+/*.qpng{margin-left: -20px;width: 20px;
   position:relative;float: left;}
 .saved{border: 1px solid orange;
 border-radius: 10px;padding: 2px;}
-.savPic{
+.savPic{*/
   /*display: none;*/
-  width: 35%;
+  /*width: 35%;
 }
 #subFind{border-radius: 20px;}
+#subButton{border-radius: 10px;}
 #savMenu{width: 100px;
 height: 100px;
-background-color: white;}
+background-color: white;}*/

@@ -5,17 +5,10 @@ body {
 
 #mover {
   font-family: 'Quattrocento Sans';
-  /*text-align: center;*/
-  /*border-bottom: solid 1px orange;*/
   width: 20%;
   margin: auto;
   margin-bottom: 40px; }
 
-/*#moverKids{font-family: 'Quattrocento Sans';
-border-bottom: solid 1px orange;
-width:20%;
-margin: auto;
-margin-bottom: 40px;}*/
 #mover h1 {
   text-align: center;
   color: white; }
@@ -98,6 +91,9 @@ height:1px;
 
 #subFind {
   border-radius: 20px; }
+
+#subButton {
+  border-radius: 10px; }
 
 #savMenu {
   width: 100px;
