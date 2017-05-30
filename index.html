@@ -9,7 +9,7 @@
     <title>Q's SubViewer</title>
 
 </head>
-<body ng-app="redMod" ng-controller="controller1">
+<body ng-app="redMod" ng-controller="controller1" ng-controller="saveStory">
   <div id="mover"><h1>r/{{name}}</h1>
     <form>
     <input id="subFind" ng-model="name" type="text" placeholder="subreddit"><button ng-click="getReddit(name)" id="subButton" type="submit" name="button">go</button>
@@ -17,18 +17,20 @@
   </div>
 
   <div class="storeMenu">
-  <ul class='storedList'>
 
-  </ul>
+  <!-- <ul class='storedList'>
+
+  </ul> -->
   </div>
 <content></content>
 
-
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="lib/angular.min.js"></script>
 <script type="text/javascript" src="lib/angular-route.min.js"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
+
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/controller1.js"></script>
+<script type="text/javascript" src="js/controller2.js"></script>
 <script type="text/javascript" src="js/services.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.js"></script>
